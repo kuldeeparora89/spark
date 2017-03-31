@@ -17,7 +17,7 @@
     </dependencies>
 
     <build>
-        <finalName>$artifactId</finalName>
+        <finalName>${artifactId}</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
