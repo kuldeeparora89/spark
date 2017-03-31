@@ -6,7 +6,7 @@
 
     <groupId>kd.spark</groupId>
     <artifactId>spark-fun</artifactId>
-    <version>1.0T</version>
+    <version>1.0</version>
 
     <dependencies>
         <dependency> <!-- Spark dependency -->
@@ -26,7 +26,9 @@
                             <mainClass>HelloWorld</mainClass>
                         </manifest>
                     </archive>
-
+                    <descriptorRefs>
+                        <descriptorRef>-core</descriptorRef>
+                    </descriptorRefs>
                 </configuration>
             </plugin>
         </plugins>
