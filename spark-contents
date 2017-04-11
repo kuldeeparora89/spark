@@ -1,0 +1,14 @@
+1.mapPartitions()
+http://stackoverflow.com/questions/21185092/apache-spark-map-vs-mappartitions
+
+2.What if serialization is not possible , then how spark move code to worker nodes ?
+
+3. preservesPartitioning ?
+
+4.spark.default.parallelism ?
+
+5.Hash Partitioner ?
+
+6.Range Partitioner ?
+
+7.maxBytesInFlight ?
