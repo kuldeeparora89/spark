@@ -16,6 +16,11 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <build>
         <finalName>spark-fun</finalName>
         <plugins>
@@ -32,6 +37,7 @@
                     </descriptorRefs>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 
